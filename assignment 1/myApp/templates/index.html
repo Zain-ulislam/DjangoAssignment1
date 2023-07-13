@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="container">
+    <h1>Django Documentation</h1>
+    <p></p>
+    <p>Django, a Python web framework, empowers developers to efficiently construct powerful and scalable web applications. It adheres to the Model-View-Controller (MVC) architecture, prioritizing code reusability and modularity. With Django, developers can leverage features like the Object-Relational Mapping (ORM) for seamless database interaction, URL routing, authentication mechanisms, and an intuitive admin interface. These capabilities make Django a favored choice for web development endeavors.</p>
+
+    <div class="image-container"></div>
+    <a href="{% url 'myApp:doc' %}">Click Here for Reading Documentation</a>
+    </div>
+</div>
+
+{% endblock content %}
